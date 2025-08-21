@@ -1,0 +1,31 @@
+abstract public class Pessoa {
+    String nome;
+    int idade;
+    double peso;
+
+    public Pessoa(String nome, int idade, double peso){
+        this.nome = nome;
+        this.idade = idade;
+        this.peso = peso;
+    }
+
+    public String falar(String fala){
+        return this.nome + ": " + fala;
+    }
+
+    public String pular(double altura){
+        return "Pulou 2m";
+    }
+
+//    abstract String falar(String fala);
+//    abstract String pular(double altura);
+
+//    abstract String getNome();
+//    abstract Pessoa setNome(String nome);
+
+//    abstract int getIdade();
+//    abstract Pessoa setIdade(int idade);
+
+//    abstract double getPeso();
+//    abstract Pessoa setPeso(double peso);
+}
